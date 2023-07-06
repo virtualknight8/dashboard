@@ -1,0 +1,41 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    margin-bottom: 20px;
+}
+
+.input{
+    margin-bottom: 10px;
+    background-color: 'transparent';
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input:focus{
+    background-color: rgb(223, 244, 244);
+    outline: none;
+}
+
+
+
+
+
+h2,p,.googleapplelinks{
+    margin-bottom: 20px;
+}
+
+.googleapplelinks{
+    font-size: small;
+    color: rgb(150, 148, 148);
+    
+}
+
+svg{
+    margin-right:10px ;
+    margin-left: 10px;
+}
